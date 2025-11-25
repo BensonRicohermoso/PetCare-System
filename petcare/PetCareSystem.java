@@ -13,7 +13,6 @@ public class PetCareSystem {
     static final String GREEN = "\u001B[32m";
     static final String YELLOW = "\u001B[33m";
     static final String BLUE = "\u001B[34m";
-    static final String PURPLE = "\u001B[35m";
     static final String CYAN = "\u001B[36m";
     static final String WHITE = "\u001B[37m";
     static final String BRIGHT_GREEN = "\u001B[92m";
@@ -173,10 +172,25 @@ public class PetCareSystem {
             String address = sc.nextLine();
 
             // Appointment info
-            System.out.print(CYAN + "Enter Appointment Date (yyyy-MM-dd): " + RESET);
-            String date = sc.nextLine();
-
-            // ... date validation ...
+            String date;
+            boolean validDate = false;
+            do {
+                System.out.print(CYAN + "Enter Appointment Date (yyyy-MM-dd): " + RESET);
+                date = sc.nextLine();
+                
+                try {
+                    java.time.LocalDate appointmentDate = java.time.LocalDate.parse(date);
+                    java.time.LocalDate tomorrow = java.time.LocalDate.now().plusDays(1);
+                    
+                    if (appointmentDate.isBefore(tomorrow)) {
+                        System.out.println(RED + "✗ Appointment must be at least 1 day in advance (minimum: " + tomorrow + ")" + RESET);
+                    } else {
+                        validDate = true;
+                    }
+                } catch (java.time.format.DateTimeParseException e) {
+                    System.out.println(RED + "✗ Invalid date format. Please use yyyy-MM-dd" + RESET);
+                }
+            } while (!validDate);
 
             System.out.print(CYAN + "Enter Reason: " + RESET);
             String reason = sc.nextLine();
