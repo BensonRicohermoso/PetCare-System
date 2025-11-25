@@ -98,31 +98,34 @@ String toDisplayString();
 │ + printDisplay() │
 └──────────────────────┘
 
-
-
 ### Class Descriptions
 
 1. **Entity.java (Abstract Class)**
+
    - Base class for all entities
    - Provides common `id` field and `generateId()` method
    - Declares abstract method `getDisplayInfo()`
 
 2. **Displayable.java (Interface)**
+
    - Defines contract for displayable objects
    - Requires implementation of `toDisplayString()`
    - Provides default `printDisplay()` method
 
 3. **Owner.java**
+
    - Stores owner information (name, contact, address)
    - Extends `Entity` and implements `Displayable`
    - Provides getters/setters for all fields
 
 4. **Pet.java**
+
    - Stores pet information (name, species, age, vaccination status)
    - Contains reference to `Owner` object
    - Extends `Entity` and implements `Displayable`
 
 5. **Appointment.java**
+
    - Manages appointment scheduling
    - Contains reference to `Pet` object, date, and reason
    - Extends `Entity` and implements `Displayable`
@@ -145,14 +148,15 @@ String toDisplayString();
 ## How to Run the Program
 
 ### Prerequisites
+
 - Java Development Kit (JDK) 11 or higher
 - Command line terminal (CMD, PowerShell, Terminal, or Bash)
 
 ### Step-by-Step Instructions
 
 #### **Step 1: Organize Your Files**
-Ensure your project has the following structure:
 
+Ensure your project has the following structure:
 
 YourProject/
 ├── src/
@@ -174,28 +178,39 @@ Step 4: Run the Program
 Execute the main class:
 bashjava petcare.PetCareSystem
 
-
-
 #### **Alternative: Using an IDE**
 
 **Eclipse:**
+
 1. Import project → Right-click on `PetCareSystem.java`
 2. Run As → Java Application
 
 **IntelliJ IDEA:**
+
 1. Open project → Right-click on `PetCareSystem.java`
 2. Run 'PetCareSystem.main()'
 
 **VS Code:**
+
 1. Open folder → Click "Run" button above `main()` method
 2. Or press `F5` with `PetCareSystem.java` open
 
+<<<<<<< HEAD
 
+## =======
+
+> > > > > > > 41a90b7 (WIP: local edits before reorganizing into package)
 
 ## Sample Output
 
 ### Welcome Screen
 
+<<<<<<< HEAD
+
+=======
+
+```
+>>>>>>> 41a90b7 (WIP: local edits before reorganizing into package)
 
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ │
@@ -211,8 +226,16 @@ bashjava petcare.PetCareSystem
 │ / > ♥ │
 └─────────────────────────────────────────────────────────────────────────────┘
 
+<<<<<<< HEAD
 ### Main Menu
 
+=======
+```
+
+### Main Menu
+
+```
+>>>>>>> 41a90b7 (WIP: local edits before reorganizing into package)
 
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ PetCare Menu │
@@ -225,10 +248,18 @@ bashjava petcare.PetCareSystem
 └─────────────────────────────────────────────────────────────────────────────┘
 Choose an option:
 
+<<<<<<< HEAD
 
 
 ### Creating a Record
 
+=======
+```
+
+### Creating a Record
+
+```
+>>>>>>> 41a90b7 (WIP: local edits before reorganizing into package)
 
 Adding New Pet Record
 Enter Pet Name: Max
@@ -243,10 +274,18 @@ Enter Reason: Annual checkup
 ⠋ Saving record...
 ✓ Record added successfully!
 
+<<<<<<< HEAD
 
 
 ### Viewing Records
 
+=======
+```
+
+### Viewing Records
+
+```
+>>>>>>> 41a90b7 (WIP: local edits before reorganizing into package)
 
 ╔══════════════════════════════════════════════╗
 ║ PetCare Records Database ║
@@ -260,12 +299,22 @@ Contact: +1-555-0123
 Address: 123 Main St, Springfield
 Appointment: 2024-12-15 | Annual checkup
 
+<<<<<<< HEAD
 
 
 ### Exit Animation
 
 
 
+=======
+```
+
+### Exit Animation
+
+```
+
+---
+>>>>>>> 41a90b7 (WIP: local edits before reorganizing into package)
 
 / **_| _** **\_ **| | |** \_ \_ \_**| |
 | | _ / _ \ / _ \ / _` | '_ \| | | |/ _ \ |
@@ -374,3 +423,4 @@ Email: [bensonricohermoso@gmail.com]
 GitHub: [https://github.com/BensonRicohermoso]
 
 Last Updated: November 25, 2024
+```
