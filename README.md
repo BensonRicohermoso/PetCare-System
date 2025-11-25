@@ -98,7 +98,7 @@ String toDisplayString();
 │ + printDisplay() │
 └──────────────────────┘
 
-```
+
 
 ### Class Descriptions
 
@@ -152,7 +152,7 @@ String toDisplayString();
 
 #### **Step 1: Organize Your Files**
 Ensure your project has the following structure:
-```
+
 
 YourProject/
 ├── src/
@@ -174,7 +174,7 @@ Step 4: Run the Program
 Execute the main class:
 bashjava petcare.PetCareSystem
 
-```
+
 
 #### **Alternative: Using an IDE**
 
@@ -190,12 +190,12 @@ bashjava petcare.PetCareSystem
 1. Open folder → Click "Run" button above `main()` method
 2. Or press `F5` with `PetCareSystem.java` open
 
----
+
 
 ## Sample Output
 
 ### Welcome Screen
-```
+
 
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ │
@@ -211,10 +211,8 @@ bashjava petcare.PetCareSystem
 │ / > ♥ │
 └─────────────────────────────────────────────────────────────────────────────┘
 
-```
-
 ### Main Menu
-```
+
 
 ┌─────────────────────────────────────────────────────────────────────────────┐
 │ PetCare Menu │
@@ -227,10 +225,10 @@ bashjava petcare.PetCareSystem
 └─────────────────────────────────────────────────────────────────────────────┘
 Choose an option:
 
-```
+
 
 ### Creating a Record
-```
+
 
 Adding New Pet Record
 Enter Pet Name: Max
@@ -245,10 +243,10 @@ Enter Reason: Annual checkup
 ⠋ Saving record...
 ✓ Record added successfully!
 
-```
+
 
 ### Viewing Records
-```
+
 
 ╔══════════════════════════════════════════════╗
 ║ PetCare Records Database ║
@@ -262,12 +260,12 @@ Contact: +1-555-0123
 Address: 123 Main St, Springfield
 Appointment: 2024-12-15 | Annual checkup
 
-```
+
 
 ### Exit Animation
-```
 
----
+
+
 
 / **_| _** **\_ **| | |** \_ \_ \_**| |
 | | _ / _ \ / _ \ / _` | '_ \| | | |/ _ \ |
