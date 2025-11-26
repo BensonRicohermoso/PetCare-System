@@ -85,16 +85,19 @@ The application features a clear, color-coded console interface, including:
 ---
 
 ## 👤 Author and Acknowledgement
-**Author:** [Benson Ricohermoso]
-**Student ID:** [24-02452]
-**Course:** [Information Technology]
-**Institution:** [Batangas State University]
+**Section:** BSIT-2102
 **Date:** November 2025
 
+| Name | Primary Role | Secondary Contribution |
+| :--- | :--- | :--- |
+| **Benson Ricohermoso** | Main Code Constructor | Core OOP Implementation |
+| **Carel Nympha Tabor** | Code Revision & Testing | Console UI Implementation (ANSI Colors, Menus) |
+| **James Carl Simara** | Concept Idealization | System Design and Architecture |
+| **Jovy Anne Nosa** | Documentation Lead | Project Planning and System Analysis |
+
 **Acknowledgements:**
-* Thanks to my instructor for guidance on OOP principles.
-* Inspired by real-world veterinary clinic management needs.
-* ANSI color implementation referenced from standard Java console styling techniques.
+* Thanks to our instructor for guidance on OOP principles and project structure.
+* Inspired by the need for efficient, real-world veterinary clinic management tools.
 
 ## 🚀 Future Enhancements
 The following features are planned for future versions to transition the system into a full-scale clinical application:
